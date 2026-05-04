@@ -1,1 +1,53 @@
 @charset "utf-8";
+
+.page-header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav {
+display: flex;
+list-style: none;
+}
+
+.custom-icon {
+  color: #777;
+  display: inline-block;
+  margin: 15px;
+}
+
+.button {
+  text-align: right;
+  cursor: pointer;
+  background-color: #6ba7eb;
+  color: #ffffff;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.button:hover {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.keyvisual-inner {
+  text-align: center;
+  position: relative;
+}
+
+.page-title {
+  position: absolute;
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+}
+
+.keyvisual-inner p {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 30px 0 400px;
+}
+
