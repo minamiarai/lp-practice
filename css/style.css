@@ -2,13 +2,17 @@
 
 .page-header {
   background: #fff;
-  display: flex;
-  justify-content: space-between;
+  padding: 0 15px;
 }
 
 .main-nav {
-display: flex;
-list-style: none;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .custom-icon {
@@ -32,21 +36,69 @@ list-style: none;
   transition: color 0.3s;
 }
 
+.keyvisual {
+  background-image: url("../img/keyvisual/keyvisual.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .keyvisual-inner {
   text-align: center;
-  position: relative;
 }
 
 .page-title {
-  position: absolute;
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
+  margin: 0;
+  letter-spacing: 0.05em;
 }
 
 .keyvisual-inner p {
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
+  margin-top: 30px;
 }
 
+.work {
+  background-color: #e3f2fd;
+  padding: 50px 0;
+}
+
+.work-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.work-pc-img {
+  width: 250px;
+  height: auto;
+  margin-top: 50px;
+}
+
+.work-text {
+  flex: 6;
+  margin-top: 20px;
+  line-height: 1;
+}
+
+.work-text h3 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-bottom: 35px;
+}
+
+.work-text p {
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
