@@ -72,14 +72,10 @@
 
 .work-inner {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 50px;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
-.work-pc-img {
+.work-img {
+  flex: 4;
   width: 250px;
   height: auto;
   margin-top: 50px;
@@ -89,6 +85,7 @@
   flex: 6;
   margin-top: 20px;
   line-height: 1;
+  text-align: center;
 }
 
 .work-text h3 {
