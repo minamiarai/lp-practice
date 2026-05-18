@@ -15,8 +15,13 @@
   <header class="page-header">
     <nav>
       <ul class="main-nav">
-        <li><a href="#"><i class="fas fa-archway fa-3x custom-icon"></i></a></li>
-        <li><a href="#" class="button">Contact</a></li>
+        <li><a href="#">
+            <i class="fas fa-archway fa-3x custom-icon"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="button">Contact</a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -27,8 +32,8 @@
         <p>DIRECTION,CONTENT MARKETING</p>
       </div>
     </section>
-    <section class="work">
-      <div class="inner work-inner">
+    <section id="work">
+      <div class="inner">
         <div class="work-img">
           <img src="./img/pc/pc.png" alt="PCの画像">
         </div>
@@ -46,18 +51,20 @@
     <section class="skills"><!-- 「WE ARE SKILLS」のタイトルがある部分-->
       <div class="innner skills-inner">
         <h4>WE ARE SKILLS</h4>
-        <img src="./img/skills/skills_1.png" alt="LOGOの画像">
-        <img src="./img/skills/skills_2.png" alt="CAMERAの画像">
-        <img src="./img/skills/skills_3.png" alt="CLOUDの画像">
-        <img src="./img/skills/skills_4.png" alt="PRODUCTIONの画像">
-        <img src="./img/skills/skills_5.png" alt="IMAGEの画像">
-        <img src="./img/skills/skills_6.png" alt="HEADPHONESの画像">
+        <div class="skills-list">
+          <a href="#"><img src="./img/skills/skills_1.png" alt="LOGOの画像"></a>
+          <a href="#"><img src="./img/skills/skills_2.png" alt="CAMERAの画像"></a>
+          <a href="#"><img src="./img/skills/skills_3.png" alt="CLOUDの画像"></a>
+          <a href="#"><img src="./img/skills/skills_4.png" alt="PRODUCTIONの画像"></a>
+          <a href="#"><img src="./img/skills/skills_5.png" alt="IMAGEの画像"></a>
+          <a href="#"><img src="./img/skills/skills_6.png" alt="HEADPHONESの画像"></a>
+        </div>
       </div>
     </section>
     <section class="plan"><!-- 「SELECT PLAN」のタイトルがある部分 -->
       <div class="inner plan-inner">
         <h4>SELECT PLAN</h4>
-        <table>
+        <table class="plan-table">
           <tr>
             <th>PLAN</th>
             <th>BASIC PLAN</th>
@@ -66,32 +73,30 @@
           </tr>
           <tr>
             <th>PRICE</th>
-            <th>DELIVERY</th>
-            <th>ANALYSIS</th>
-            <th>IMPROVEMENT</th>
-            <th>DESIGN</th>
-          </tr>
-          <tr>
             <td>¥100,000</td>
             <td>¥200,000</td>
             <td>¥300,000</td>
           </tr>
           <tr>
+            <th>DELIVERY</th>
             <td>Manuscript</td>
             <td>HTML</td>
             <td>Manuscript,HTML,PSD</td>
           </tr>
           <tr>
+            <th>ANALYSIS</th>
             <td>○</td>
             <td>○</td>
             <td>○</td>
           </tr>
           <tr>
+            <th>IMPROVEMENT</th>
             <td>✕</td>
             <td>○</td>
             <td>○</td>
           </tr>
           <tr>
+            <th>DESIGN</th>
             <td>✕</td>
             <td>✕</td>
             <td>○</td>
@@ -100,20 +105,20 @@
       </div>
     </section>
     <section class="sns"><!-- iconが並んでいる部分 -->
-      <div class="inner">
+      <div class="inner sns-inner">
         <nav>
-          <ul>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-dribbble"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-envelope"></i>
+          <ul class="sns-list">
+            <li><a href="#"><i class="fab fa-facebook-f custom-icon"></i></a></li>
+            <li><a href="#"><i class="fab fa-dribbble custom-icon"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter custom-icon"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope custom-icon"></i></a></li>
           </ul>
         </nav>
       </div>
     </section>
   </main>
   <footer>
-    <p>Copyright(c)</p>
+    <p class="copyright">Copyright(c)</p>
   </footer>
 </body>
 
