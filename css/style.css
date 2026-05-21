@@ -64,6 +64,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 15px;
 }
 
 .keyvisual-inner {
@@ -109,7 +110,7 @@
 
 .work-text {
   flex: 6;
-  text-align: left;
+  text-align: center;
 }
 
 .work-text h3 {
@@ -143,7 +144,7 @@
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 100px;
   list-style: none;
   padding: 0;
