@@ -87,7 +87,8 @@
 
 .work {
   background-color: #e3f2fd;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 0;
 }
 
 .work-inner {
@@ -268,13 +269,13 @@
   padding: 25px 92.5px;
   color: #8c8c8c;
   font-size: 40px;
-  overflow: hidden;
   text-decoration: none;
+  background-color: transparent;
   transition: background-color 0.5s ease;
 }
 
-.sns-list a:hover {
-  background-color: #ffffff;
+.sns-list li a:hover {
+  background-color: #fff;
 }
 
 footer {
