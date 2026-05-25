@@ -64,6 +64,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 78px;
 }
 
 .keyvisual-inner {
@@ -145,16 +146,15 @@
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 100px;
+  justify-content: flex-start;
+  gap: 100px 100px;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .skills-list li {
-  width: 300px;
-  height: 300px;
+width: calc((100% - 200px) / 3);
 }
 
 .skills-list a {
@@ -173,6 +173,12 @@
 
 .skills-list a:hover img {
   opacity: 1.0;
+}
+
+.skills-list li img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .plan {
