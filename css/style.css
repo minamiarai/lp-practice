@@ -331,6 +331,12 @@ footer {
 }
 
 @media screen and (max-width: 1199px) {
+
+  .header-inner {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
   .page-title {
     white-space: normal;
     font-size: 50px;
@@ -372,6 +378,10 @@ footer {
 
   .skills-list li:nth-child(3n) {
     margin-bottom: 80px;
+  }
+
+  .skills-list li:last-child {
+    margin-bottom: 0;
   }
 }
 
